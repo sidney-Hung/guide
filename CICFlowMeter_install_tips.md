@@ -12,6 +12,12 @@ https://github.com/ahlashkari/CICFlowMeter
 [Download JDK Link (Personal suggest jdk version 1.8.X)](https://www.oracle.com/tw/java/technologies/javase/javase8-archive-downloads.html)
 
 
+## Step Preview
+* Maven 
+* WinPcap
+* CICFlowMeter
+
+
 ## Maven
 * Download
 * Please make sure where your folder! 
@@ -53,11 +59,11 @@ mvn install:install-file -Dfile=jnetpcap.jar -DgroupId=org.jnetpcap -DartifactId
 #### ___Tips: Some Error will be print. That's normal.___
 
 ### 3. Create folder and copy file to there.
-* Create folder *jnetpcap* in C:\Users\xyour_user_namex\c\.m2\repository\org
-* Create folder *jnetpcap* in C:\Users\xyour_user_namex\c\.m2\repository\org\jnetpcap
-* Create folder *1.4.r1425* in C:\Users\xyour_user_namex\c\.m2\repository\org\jnetpcap\jnetpcap
-* Copy file XXX\CICflowMeter-master\jnetpcap\win\jnetpcap-1.4.r1425\jnetpcap.jar to C:\Users\XXX\c\.m2\repository\org\jnetpcap\jnetpcap\1.4.r1425
-* Go to C:\Users\xyour_user_namex\c\.m2\repository\org\jnetpcap\jnetpcap\1.4.r1425 Change .jar file name from _jnetpcap.jar_ to _jnetpcap-1.4.r1425.jar_
+* Create folder *jnetpcap* in C:\Users\Xyour_user_nameX\.m2\repository\org
+* Create folder *jnetpcap* in C:\Users\Xyour_user_nameX\.m2\repository\org\jnetpcap
+* Create folder *1.4.r1425* in C:\Users\Xyour_user_nameX\.m2\repository\org\jnetpcap\jnetpcap
+* Copy file XXX\CICflowMeter-master\jnetpcap\win\jnetpcap-1.4.r1425\jnetpcap.jar to C:\Users\Xyour_user_nameX\.m2\repository\org\jnetpcap\jnetpcap\1.4.r1425
+* Go to C:\Users\Xyour_user_nameX\.m2\repository\org\jnetpcap\jnetpcap\1.4.r1425 Change .jar file name from _jnetpcap.jar_ to _jnetpcap-1.4.r1425.jar_
 
 ### 4. Open Cmd or Powershell and go to XXX\CICflowMeter-master
 ```
